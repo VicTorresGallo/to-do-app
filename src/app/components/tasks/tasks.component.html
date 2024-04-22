@@ -7,8 +7,7 @@
         <div class="card-body">  
             <form (submit)="addTask($event)">  
                 <div class="input-group">  
-                    <input type="text" [(ngModel)]="titulo" name="titulo" class="form-control" 
-placeholder="Añade una tarea">  
+                    <input type="text" [(ngModel)]="titulo" name="titulo" class="form-control" placeholder="Añade una tarea">  
                     <span class="input-group-addon">  
                         <button type="submit" class="btn btn-primary">  
                             Añadir tarea  
@@ -44,5 +43,3 @@ placeholder="Añade una tarea">
     </table>  
 </div>  
  
-<!-- Incluímos un botón adicional para facilitar las pruebas entre pantallas (ELIMINAR) --> 
-<a routerLink="/login" routerLinkActive="active" class="btn btn-outline-warning">Login >></a>

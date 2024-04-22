@@ -33,12 +33,12 @@ export class UserService {
   }
 
   setToken(token: string) {
-    console.log("SET TOKEN token: " + token);
+    //console.log("SET TOKEN token: " + token);
     sessionStorage.setItem('token', token);
   }
 
   getToken() {
-    console.log("GET TOKEN token: "+ sessionStorage.getItem('token'));
+    //console.log("GET TOKEN token: "+ sessionStorage.getItem('token'));
     return sessionStorage.getItem('token');
   }
 
